@@ -8,7 +8,7 @@ def sum_geometry_progress(b,q,n):
     if n < 2 or n > 100:
         print("Ошибка,n принадлежит промежутку [2,100]")
         return -1
-    return (b * (1 - q**n)) / (1 - q)
+    return (b * (1 - q**n)) / (1 - q)  #формула суммы геометрической прогрессии до n-ого члена
 
 def main():
     b=int(input("Введите b от -10_000 до 10_000"))
